@@ -7,6 +7,7 @@
 --container-space:0px;
 }
 .container{
+    width:100%;
     padding: 0 var(--container-space);
     margin: 0 auto;
     background: #EEEFF1;
