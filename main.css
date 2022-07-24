@@ -17,6 +17,7 @@
     justify-content: center;
     flex-wrap: wrap;
     padding-right:55px ;
+    padding-top: 55px;
 }
 .header{
     display: flex;
@@ -26,22 +27,32 @@
 .nav__links{
     display: flex;
     gap: 35px;
-    color: #34547A;
+    color: #34547AFF;
+    font-family: 'Roboto';
+}
+.nav__link:hover{
+    color:#34547AFF;
+    transition: .1s;
+
+
 }
 .nav__link{
     text-transform: uppercase;
     text-decoration: none;
-    color: #34547A;
+    color: Black;
+    font-size: 16px;
+    line-height: 26px;
 
 
     
 }
 .filling__header{
     margin-top: 150px ;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     background: #EEEFF1;
 }
 .title{
+
     color: black;
     font-family: 'Roboto';
     font-style: normal;
@@ -64,14 +75,18 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
     color: #FFFFFF;
     padding:20px;
-    margin-top:65px;
+    margin-top:75px;
     background: #34547A;
+    box-sizing: border-box;
+    min-width: 200px;
+    outline: none;
+
 }
 .main{
     background: #EEEFF1;
