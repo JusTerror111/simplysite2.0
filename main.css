@@ -75,7 +75,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.1em;
@@ -86,6 +86,7 @@
     box-sizing: border-box;
     min-width: 200px;
     outline: none;
+    text-transform:uppercase;
 
 }
 .main{
